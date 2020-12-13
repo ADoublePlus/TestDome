@@ -54,6 +54,7 @@
     <Compile Include="DecoratorStream.cs" />
     <Compile Include="Folders.cs" />
     <Compile Include="MergeNames.cs" />
+    <Compile Include="Palindrome.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
