@@ -61,6 +61,7 @@
     <Compile Include="Song.cs" />
     <Compile Include="SortedSearch.cs" />
     <Compile Include="TrainComposition.cs" />
+    <Compile Include="TwoSum.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
