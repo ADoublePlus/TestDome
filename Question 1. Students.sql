@@ -4,9 +4,9 @@
 	String comparisons should be case sensitive.
 	
 	TABLE students
-					id INTEGER PRIMARY KEY,
-					firstName VARCHAR(30) NOT NULL,
-					lastName VARCHAR(30) NOT NULL 
+		id INTEGER PRIMARY KEY,
+		firstName VARCHAR(30) NOT NULL,
+		lastName VARCHAR(30) NOT NULL 
 */
 
 SELECT COUNT(*) FROM students WHERE firstName = 'John'
