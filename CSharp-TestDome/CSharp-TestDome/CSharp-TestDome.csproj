@@ -59,6 +59,7 @@
     <Compile Include="Path.cs" />
     <Compile Include="QuadraticEquation.cs" />
     <Compile Include="Song.cs" />
+    <Compile Include="SortedSearch.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
